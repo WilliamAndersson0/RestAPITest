@@ -46,7 +46,7 @@ namespace WebApplicationTest.Controllers
             return View();
         }
 
-        private async Task<string> GetTokenAsync(LoginModel model)
+        private async Task<string?> GetTokenAsync(LoginModel model)
         {
             var json = JsonSerializer.Serialize(model);
             var content = new StringContent(json, Encoding.UTF8, "application/json");
@@ -62,7 +62,7 @@ namespace WebApplicationTest.Controllers
             return null;
         }
 
-        private async Task<string> GetBase64ImageAsync(string token)
+        private async Task<string?> GetBase64ImageAsync(string token)
         {
             _profileClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
