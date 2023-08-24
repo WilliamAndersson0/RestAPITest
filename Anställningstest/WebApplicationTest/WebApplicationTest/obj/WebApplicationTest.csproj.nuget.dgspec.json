@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Anställningstest\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj": {}
+    "C:\\Users\\William\\Documents\\GitHub\\RestAPITest\\Anställningstest\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj": {}
   },
   "projects": {
-    "F:\\Anställningstest\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj": {
+    "C:\\Users\\William\\Documents\\GitHub\\RestAPITest\\Anställningstest\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Anställningstest\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj",
+        "projectUniqueName": "C:\\Users\\William\\Documents\\GitHub\\RestAPITest\\Anställningstest\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj",
         "projectName": "WebApplicationTest",
-        "projectPath": "F:\\Anställningstest\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj",
+        "projectPath": "C:\\Users\\William\\Documents\\GitHub\\RestAPITest\\Anställningstest\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj",
         "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
-        "outputPath": "F:\\Anställningstest\\WebApplicationTest\\WebApplicationTest\\obj\\",
+        "outputPath": "C:\\Users\\William\\Documents\\GitHub\\RestAPITest\\Anställningstest\\WebApplicationTest\\WebApplicationTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
