@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+    
+<div class="d-flex justify-content-center align-items-center min-vh-100">
+    <div class="border rounded p-4 shadow-lg" style="width: max-content;">
+        <div class="mx-auto" style="max-width: 400px;">
+            <form method="post" asp-controller="Login" asp-action="Index">
+                <div class="form-group text-center">
+                    <label for="Username">Username</label>
+                    <input type="text" class="form-control" id="Username" name="Username" />
+                </div>
+                <div class="form-group text-center">
+                    <label for="Password">Password</label>
+                    <input type="password" class="form-control" id="Password" name="Password" />
+                </div>
+                <div class="text-center mt-3">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+
+        @if (ViewBag.Base64Image != null)
+        {
+            <div class="text-center mt-3">
+                <img src="data:image/png;base64,@ViewBag.Base64Image" alt="Image" style="max-width: 100%; border: 1px solid #ccc; padding: 5px; border-radius: 10px;">
+            </div>
+        }
+    </div>
+</div>
+

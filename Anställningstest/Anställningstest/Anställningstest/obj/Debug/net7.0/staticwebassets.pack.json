@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\Anställningstest\\Anställningstest\\Anställningstest\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Anställningstest.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Anställningstest.props",
+      "PackagePath": "build\\Anställningstest.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Anställningstest.props",
+      "PackagePath": "buildMultiTargeting\\Anställningstest.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Anställningstest.props",
+      "PackagePath": "buildTransitive\\Anställningstest.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
